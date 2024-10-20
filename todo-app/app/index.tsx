@@ -118,11 +118,14 @@ const index = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: "#008b8b"
   },
 todoTitle: {
     fontSize: 30,
     textAlign: 'center',
-    marginVertical: 10
+    margin: 10,
+    fontWeight: 'bold',
+    color: '#ffffff'
   },
   input: {
     height: 40,
@@ -130,40 +133,53 @@ todoTitle: {
     marginVertical : 20,
     borderWidth: 1,
     padding: 10,
+    borderColor: '#add8e6',
+    color: '#ffffff'
   },
   updateInput: {
     margin: 20,
     width: 200,
     borderWidth: 1,
+    borderColor: '#add8e6',
+    color: '#fffff',
   },
   button: {
     alignItems: 'center',
-    backgroundColor: '#DDDDDD',
+    backgroundColor: '#add8e6',
     padding: 10,
     marginHorizontal: 170,
+    borderRadius: 25,
   },
   flat: {
     marginTop: 20,
   },
   item: {
-    backgroundColor: '#f9c2ff',
+    backgroundColor: '#5f9ea0',
     padding: 20,
     marginVertical: 10,
     marginHorizontal: 16,
+    borderRadius: 20,
   },
   title: {
     fontSize: 32,
+    color: "#ffffff",
+    fontWeight: 'bold',
+    textAlign: "center"
   },
   notFound: {
     fontSize: 50,
     marginVertical: 30,
-    textAlign: 'center'
+    textAlign: 'center',
+    fontWeight: 'bold',
+    color: '#ffffff',
+
   },
   ListBtn: {
     alignItems: 'center',
-    backgroundColor: '#DDDDDD',
+    backgroundColor: '#add8e6',
     padding: 10,
-    margin: 5
+    margin: 5,
+    borderRadius: 25,
   },
   centeredView: {
     flex: 1,
