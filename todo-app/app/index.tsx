@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 
 const index = () => {
   const [inputVal, setInputVal] = useState('');
-  const [list, setList] = useState<string[]>(['hello']);
+  const [list, setList] = useState<string[]>([]);
   const [modalVisible, setModalVisible] = useState(false);
   const [updateInput, setUpdateInput] = useState('');
   const [index, setIndex] = useState(0);
@@ -14,9 +14,13 @@ const index = () => {
   // render addTodo function
   const addTodo = () => {
     console.log(inputVal);
-    list.push(inputVal)
-    setList([...list])
-    setInputVal ("")
+    if(inputVal === ""){
+      alert("Enter a value")      
+    }else{
+      list.push(inputVal)
+      setList([...list])
+      setInputVal ("")
+    }
   }
 
 // delete todo
