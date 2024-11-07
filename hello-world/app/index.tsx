@@ -16,6 +16,9 @@ export default function Index() {
         fontSize: 50
       }}
       >Hello World</Text>
+
+      <Text>Hello World</Text>
+      
     </View>
     
   );
