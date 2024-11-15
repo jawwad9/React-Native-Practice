@@ -7,6 +7,7 @@ const index = () => {
       <Text>Hello world</Text>
       <Text>Hello world</Text>
       <Text>Hello world</Text>
+      <Text>Hello jawad</Text>
 
     </View>
   )
