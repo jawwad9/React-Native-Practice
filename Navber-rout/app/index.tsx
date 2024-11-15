@@ -6,6 +6,7 @@ const index = () => {
     <View>
       <Text>Hello world</Text>
       <Text>Hello world</Text>
+      <Text>Hello jawad</Text>
       <Text>Hello world</Text>
       <Text>Hello jawad</Text>
 
